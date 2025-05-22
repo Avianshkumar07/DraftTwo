@@ -14,7 +14,7 @@ import java.util.List;
 @RequestMapping("/api/fruits")
 public class fruitController {
 
-    private fruitService fruitservice;
+    private fruitService fruitservice; 
 
     //create a constructor and inject fruitservice dependency into ur controller
     public fruitController(fruitService fruitservice){
