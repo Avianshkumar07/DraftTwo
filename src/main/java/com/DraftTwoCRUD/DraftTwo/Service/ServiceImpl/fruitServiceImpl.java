@@ -57,8 +57,8 @@ public class fruitServiceImpl implements fruitService {
 
     @Override
     public void deleteFruit(long id) {
-        Fruit fruit =repository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Fruit not found"));
+//        Fruit fruit =repository.findById(id)
+//                .orElseThrow(() -> new RuntimeException("Fruit not found"));
 
                repository.deleteById(id);
 
